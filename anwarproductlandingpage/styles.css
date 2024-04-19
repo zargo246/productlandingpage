@@ -1,0 +1,73 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  
+  #header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: whitesmoke;
+  }
+  
+  
+  #header-img {
+    width: 100px;
+    height: 25px;
+    padding: 25px 10px 10px 20px;
+
+  }
+
+  #nav-bar {
+    
+    width: 600px;
+    padding: 10px 40px 10px 10px;
+  }
+
+  li a {
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+  }
+  
+  main {
+    border: 2px solid grey;
+    border-radius: 1em;
+    margin: 50px;
+    padding: 50px;
+    background-color: whitesmoke;
+  }
+  
+  #features, #how_it_works, #pricing, #btn {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin: 20px;
+    font-size: large;
+  }
+
+  h3 {
+    text-decoration: underline;
+  }
+
+  #video {
+    border: 5px black solid;
+  }
+
+  #submit {
+    margin: 5px;
+    padding: 2px;
+    background-color: blue;
+
+  }
